@@ -12,7 +12,7 @@ What if I told you that you could have that personalized attention? What if I to
 
 ## IEP For Everyone
 
-Everyone learns a little bit differently, and I'm saying that everyone *can* and I can help make that happen.
+Everyone learns a little bit differently, and I'm saying that *anyone can learn anything* and I can help make that happen.
 
 The way we're going to do that is:
 
