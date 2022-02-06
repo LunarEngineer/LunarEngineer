@@ -12,40 +12,38 @@ What if I told you that you could have that personalized attention? What if I to
 
 ## IEP For Everyone
 
-Everyone learns a little bit differently, and I'm saying that *anyone can learn anything* and I can help make that happen.
+Everyone learns a little bit differently, and I'm saying that *anyone can learn anything* and we can help make that happen.
 
 The way we're going to do that is:
 
 1. Build a dataset of educational content (lots of these exist.)
 2. Produce an embedding space for this dataset.
-3. Use a KD-Tree from this space to produce content samples for students learning about particular topics.
+3. Use a tree based algorithm from this space to produce content samples for students learning about particular topics.
 4. Measure those students.
-5. Allow a reinforcement learning algorithm to guide back-propagation in this embedding space as a function of the measurements.
+5. Use a learning algorithm to guide back-propagation in this embedding space as a function of the measurements.
 6. Repeat.
 
-The reinforcement learning agent is deciding how best to nudge the embedding vectors to maximize *performance* of the student learners.
+The learning agent is deciding how best to nudge the embedding vectors to maximize *performance* of the student learners.
 
 So, what's done, what needs to be done, and what's the status?
 
 ## Major Project Milestones
 
-### Adaptive KD-Trees (In progress)
+### Adaptive Information Trees (In progress)
 
 This is a Python package which can construct a KD tree and associated embedding space for a dataset representing a collection of educational content.
 
-I just started this; considering my availability I'm expecting to see this done, with implemented testing, sometime late 2021.
+I just started this; considering my availability I'm expecting to see this done, with implemented testing, ~~sometime late 2021~~ when it's done.
 
 ### Reinforcement Learning Environment.
 
-This wraps the class above in an OpenAI API compatible learning environment that it also compatible with RLLib.
+This wraps the kit and kaboodle above in an OpenAI API compatible learning environment that it also compatible with RLLib.
 
-This will be done after the KD Tree construct is available for use; reasonable movement is likely to be sometime mid 2022.
+This will be done after the information tree construct is available for use.
 
 ### Control Experiments
 
 These experiments, using machine learning constructs as learners in a controlled environment, are intended to serve as proof of concept.
-
-Late 2022 is a reasonable time-frame to expect movement on this.
 
 ## Can I Help?
 
